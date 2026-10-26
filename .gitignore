@@ -1,0 +1,74 @@
+# Flutter e Dart
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+/coverage/
+**/doc/api/
+.widget_preview/
+app.*.symbols
+app.*.map.json
+
+# Android: arquivos locais, gerados e assinaturas
+/android/.gradle/
+/android/.kotlin/
+/android/.cxx/
+/android/build/
+/android/app/build/
+/android/app/debug/
+/android/app/profile/
+/android/app/release/
+/android/local.properties
+/android/key.properties
+**/GeneratedPluginRegistrant.java
+*.jks
+*.keystore
+*.apk
+*.aab
+
+# Configurações dos editores e arquivos temporários
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+*.class
+*.log
+*.pyc
+__pycache__/
+*.swp
+*.swo
+*~
+.DS_Store
+.history/
+
+# Bancos locais e coordenadas pessoais
+*.db
+*.db-*
+*.sqlite
+*.sqlite-*
+*.sqlite3
+*.sqlite3-*
+
+# Credenciais e configurações privadas
+.env
+.env.*
+*.pem
+*.key
+
+# Materiais da disciplina e documentos auxiliares
+*.[pP][dD][fF]
+*.[mM][dD]
+!README.md
+!readme.md
+!README.MD
+
+# Arquivos e ferramentas auxiliares de IA
+.codex/
+.agents/
+.claude/
+.cursor/
+.github/copilot-instructions.md
+/tool/gerar_icone.py
